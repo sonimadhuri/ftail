@@ -1,34 +1,72 @@
-#sample cases
-{
-  "name": "bservice",
-  "env": "local",
-  "hostname": "ip-192-168-11-93.ap-south-1.compute.internal",
-  "pid": "73163",
-  "err": {
-    "message": "connect ECONNREFUSED 127.0.0.1:4566",
-    "name": "Error",
-    "stack": "Error: connect ECONNREFUSED 127.0.0.1:4566\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
-    "code": "ECONNREFUSED"
-  },
-  "msg": "{\n  businessId: '61c461ac91d0cc14aaa469b3',\n  branchId: '61c461ac91d0cc14aaa469b4',\n  sale: {\n    version: 2,\n    createdBy: '61c461acd06ee314aaffab20',\n    createdDate: '2024-07-04T07:27:11.222Z',\n    lastModifiedBy: '61c461acd06ee314aaffab20',\n    lastModifiedDate: '2024-07-04T07:27:56.201Z',\n    deviceIdentifier: 'd72c864a-a862-4fb7-943a-85bd963959fd',\n    hash: 'ttMThd4u/0s+pD8QjKasrw==',\n    branchId: '61c461ac91d0cc14aaa469b4',\n    channel: 'POS',\n    billTitle: 'Invoice',\n    billNumber: 'B2B8',\n    orderNumber: 'B0B6',\n    customerInfo: {\n      customerRefId: '648743d314eaa50013d4fbec',\n      customerId: 'VFFB6GGA',\n      contactInfo: [Object],\n      address: [Object],\n      taxId: 'test',\n      secondaryTaxId: 'TEST01',\n      isNewCustomer: true,\n      version: 6,\n      authenticated: true\n    },\n    currency: 'INR',\n    saleItems: [ [Object] ],\n    itemCount: 1,\n    showNote: true,\n    deliveryInfo: {\n      mode: 'Delivery',\n      contactInfo: [Object],\n      address: [Object],\n      deliveryDate: '2024-07-04T13:41:56+05:30',\n      advanceOrder: null\n    },\n    saleStatus: 'Closed',\n    billSubTotal: 72000,\n    billItemDiscountTotal: 0,\n    billDiscountTotal: 0,\n    discountTotal: 0,\n    billTaxTotalIncluded: 0,\n    billTaxTotalExcluded: 10080,\n    billTaxTotal: 10080,\n    billTotal: 82080,\n    roundOffAmount: 0,\n    billRoundedAmount: 82080,\n    billTaxList: [ [Object], [Object] ],\n    discountList: [],\n    billDiscountList: [],\n    paymentInfo: { payments: [Array], tip: 0, balanceAmount: 0 },\n    billHeader: {\n      branchAddress: [Object],\n      branchName: 'Vellore',\n      businessName: 'Blue Ribbon',\n      businessType: 'Food',\n      branchCode: 'Vellore',\n      phoneNumber: '8829967684',\n      brandName: 'Phil',\n      imageDataId: '6403515b8083871ce7c1fe20'\n    },\n    chargeTotal: 0,\n    directChargeTotal: 0,\n    billDiscountedSubTotal: 72000,\n    transactionType: 'Sale',\n    initiatedBy: {\n      date: '2024-07-04T12:57:11+05:30',\n      buid: '61c461acd06ee314aaffab20',\n      userName: [Object],\n      deviceIdentifier: 'd72c864a-a862-4fb7-943a-85bd963959fd',\n      deviceLabel: 'XSA5L4B5',\n      userId: 'Z0123',\n      businessDay: '2024-07-04'\n    },\n    updatedBy: {\n      date: '2024-07-04T12:57:55+05:30',\n      buid: '61c461acd06ee314aaffab20',\n      userName: [Object],\n      deviceIdentifier: 'd72c864a-a862-4fb7-943a-85bd963959fd',\n      deviceLabel: 'XSA5L4B5',\n      userId: 'Z0123',\n      businessDay: '2024-07-04'\n    },\n    fulfillmentStatus: 'Created',\n    eventLog: [ [Object], [Object] ],\n    nextAction: { action: 'Remind', actionTime: '2024-07-04T13:19:56+05:30' },\n    channelId: '61c461acd06ee314aaffab1d',\n    channelName: 'Dine In',\n    channelDefId: '61c461ac91d0cc14aaa469b6',\n    groupId: '61c461acd06ee314aaffab1c',\n    groupName: 'Vellore Group',\n    showChannelName: true,\n    lastItemNumber: 1,\n    url: 'http://localhost/be/order?_o=y&id=66864ead59efaae81433b518&uuid=9d53b4b0-3066-49b5-b0a5-e8623256b7ff&_sign=6rFSyPs6Xm3rqNtTehzPmIpFyTkJb6fGZ21vR17HB1U%3D',\n    itemTaxTotalIncluded: 0,\n    itemTaxTotalExcluded: 10080,\n    chargeTaxTotalIncluded: 0,\n    chargeTaxTotalExcluded: 0,\n    chargeTaxTotal: 0,\n    revenue: 82080,\n    netChargeTotal: 0,\n    netDirectChargeTotal: 0,\n    netDiscountTotal: 0,\n    netAmount: 72000,\n    grossAmount: 72000,\n    totalQty: 100,\n    saleBy: {\n      date: '2024-07-04T12:57:11+05:30',\n      buid: '61c461acd06ee314aaffab20',\n      userName: [Object],\n      deviceIdentifier: 'd72c864a-a862-4fb7-943a-85bd963959fd',\n      deviceLabel: 'XSA5L4B5',\n      userId: 'Z0123',\n      businessDay: '2024-07-04'\n    },\n    duration: 0,\n    modifiedBy: {\n      date: '2024-07-04T12:57:56+05:30',\n      buid: '61c461acd06ee314aaffab20',\n      userName: [Object],\n      deviceIdentifier: 'd72c864a-a862-4fb7-943a-85bd963959fd',\n      deviceLabel: 'XSA5L4B5',\n      userId: 'Z0123',\n      businessDay: '2024-07-04'\n    },\n    reportDays: [ '2024-07-04' ],\n    billBaseTotal: 72000,\n    billNumbers: [ 'B0B6', 'B2B8', 'B2BSPL4' ],\n    showDiscountReason: true,\n    hideInvoiceTime: true,\n    isEdit: true,\n    orderSequenceId: '667d5583a521d13212c94f23',\n    businessId: '61c461ac91d0cc14aaa469b3',\n    channelBrandId: '61c461ac91d0cc14aaa469b5',\n    chargeList: [],\n    itemTaxTotal: 10080,\n    suppliesSummary: [],\n    billSuppliesCost: 0,\n    billTotalCost: 0,\n    costSummary: [],\n    billSequenceId: '6673fe3b3306b8968ce898d4',\n    printQRCode: true,\n    billFooter: 'Thank You!',\n    splits: [ [Object] ],\n    organizeInfo: { splits: [Array] },\n    paymentModes: [ 'Cash' ],\n    reportDaysText: '2024-07-04',\n    changeLog: [ [Object] ],\n    _id: new ObjectId(\"66864ead59efaae81433b518\"),\n    unusedBillNumbersInfo: []\n  },\n  eventType: 'FEEDBACK_REQUEST_ON_SALE_CLOSE',\n  notificationRule: {\n    _id: new ObjectId(\"63fe168ef911895a5855261a\"),\n    name: 'FB OC',\n    status: 'Active',\n    eventType: 'FEEDBACK_REQUEST_ON_SALE_CLOSE',\n    when: 'Immediate',\n    branchIds: [ '61c461ac91d0cc14aaa469b4' ],\n    channelDefIds: [ '61c461ac91d0cc14aaa469b6', '61c46b55f33d7a10f4b0af63' ],\n    smsTemplate: 'FB',\n    smsTemplateId: '101',\n    businessId: '61c461ac91d0cc14aaa469b3',\n    lastModifiedBy: '63dcdb74c2b90a0013edaeb3',\n    lastModifiedDate: 2023-02-28T14:58:22.329Z,\n    deviceIdentifier: 'bfbc83a8-4658-4872-bbff-e26cdf01e8b2',\n    createdBy: '63dcdb74c2b90a0013edaeb3',\n    createdDate: 2023-02-28T14:58:22.329Z,\n    version: 1\n  },\n  feedbackLink: 'http://rista-dev-url.s3-website-us-east-1.amazonaws.com/tNb9yq'\n}",
-  "time": "2024-07-04T07:27:58.395Z",
-  "v": "0",
-  "traceId": "1567e9c7-6fa7-4e4c-946b-32ddb70d2357"
-}
+Pretty print logs while keeping them streamable!
+# Overview
+This project provides a CLI tool for beautifying the output of log files. The tool is configurable via a .ftailrc file in the user's home directory. It uses the chalk library to style and format log outputs, making it easier to read and analyze.
 
+# Installation
+To install the CLI tool, you need to have Node.js and npm installed. Then, you can install the tool using the following command:
+```
+npm install -g ftail
+```
+
+# Configuration
+To set up the configuration file, create a .ftailrc file in your home directory with the following content
+
+```
 {
-  "name": "bservice",
-  "env": "local",
-  "hostname": "ip-192-168-11-93.ap-south-1.compute.internal",
-  "pid": "73163",
-  "err": {
-    "message": "connect ECONNREFUSED 127.0.0.1:4566",
-    "name": "Error",
-    "stack": "Error: connect ECONNREFUSED 127.0.0.1:4566\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
-    "code": "ECONNREFUSED"
+  "mapper": {
+      "header": "time",
+      "headerType": "date",
+      "highlight": ["msg"],
+      "flatten": ["err", "token"],
+      "divider": "\n\n",
+      "formatters": {
+        "err": {
+          "highlight": ["message", "name"],
+          "header": "name",
+          "headerTitle": "Error"
+        },
+        "token": {
+          "headerTitle": "token"
+        }
+      }
+
   },
-  "msg": "error while pushing sale message {\"messageType\":\"Sale\",\"saleId\":\"66864ead59efaae81433b518\",\"businessId\":\"61c461ac91d0cc14aaa469b3\",\"branchId\":\"61c461ac91d0cc14aaa469b4\",\"saleStatus\":\"Closed\"}: ",
-  "time": "2024-07-04T07:27:56.496Z",
-  "v": "0",
-  "traceId": "1567e9c7-6fa7-4e4c-946b-32ddb70d2357"
+  "theme": {
+    "mode": "dark"
+  }
 }
+```
+## Mapper
+- header: The field used as the header of each log entry.
+- headerType: The type of the header (e.g., date).
+- highlight: Fields to be highlighted in the log entry.
+- flatten: Fields to be flattened in the log entry. For example, nested objects.
+- divider: The divider string used between log entries. For example, new line.
+- formatters: Custom formatters for nested fields following the same structure as config. For example if you want to highlight err.message. Check usage in example.
+
+## Theme
+mode: The theme mode (dark, light, or custom).
+If you choose the custom theme mode, you need to provide a custom theme object with the following properties:
+```
+{
+  "color": "black",
+  "headerColor": "magenta",
+  "highlightBg": "bgYellowBright",
+  "highlightColor": "black"
+}
+```
+Note: Only chalk foreground and background colors are supported for now.
+
+# Usage
+After configuring the .ftailrc file, you can use the CLI tool to format your log files. Run the tool with the following command:
+
+
+```
+ftail "$(ls -t | grep 'error' | head -1)" // the recent error file in logs directory
+```
+
+# License
+This project is licensed under the ISC License. See the LICENSE file for more details.
+
+# Contributing
+Contributions are welcome! Please open an issue or submit a pull request with your changes.
