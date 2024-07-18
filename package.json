@@ -1,0 +1,40 @@
+{
+  "name": "ftail",
+  "version": "1.0.0",
+  "description": "Pretty print tailed logs. Fully configurable APIs. Works with common logging libraries like winston, bunyan",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "bin": {
+    "ftail": "./dist/index.js"
+  },
+  "keywords": [
+    "pretty-print",
+    "formatting",
+    "javascript",
+    "format",
+    "tail-logs"
+  ],
+  "author": "Madhuri",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.1.2",
+    "typescript": "^5.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyzach/usfm-validator.git"
+  }
+}
